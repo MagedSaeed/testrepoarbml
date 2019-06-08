@@ -29,8 +29,8 @@
 
 .av-container {
   background: linear-gradient(
-    rgba(255, 151, 229, 0.15),
-    rgb(231, 231, 231, 0.1)
+    rgb(231, 231, 231, 0.1),
+    rgba(255, 151, 229, 0.15)
   );
   background-attachment: scroll, scroll;
   background-position: left top, center center;
