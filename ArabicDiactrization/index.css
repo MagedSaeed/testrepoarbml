@@ -73,6 +73,14 @@
   line-height: 1.5em;
 }
 
+.submit {
+  margin: 20px auto !important;
+  width: 90% !important;
+  height: 60px;
+  line-height: 50px;
+  display: block !important;
+}
+
 .outputs h3 {
   font-size: 1.25rem;
   margin-bottom: 1rem;
@@ -80,19 +88,18 @@
   font-weight: 600;
 }
 
-.outputs div {
+.outputs textarea,
+.inputs textarea {
   height: 15rem;
+  width: 100%;
   overflow-y: auto;
   padding: 1rem;
-}
-
-.output-text {
-  white-space: pre;
+  word-wrap: break-word;
   font-size: 0.95rem;
   -moz-box-shadow: inset 0 0 5px #333;
   -webkit-box-shadow: inset 0 0 5px #333;
   box-shadow: inset 0 0 5px #333;
-  border-radius: 25px;
+  border-radius: 5px;
 }
 
 /* loader */

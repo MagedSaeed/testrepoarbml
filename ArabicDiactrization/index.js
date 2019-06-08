@@ -248,14 +248,7 @@ $(document).ready(function() {
   }
   start();
   $(".submit").on("click", function() {
-    sentence = $(".inputs input").val();
+    sentence = $(".inputs textarea").val();
     generate(sentence);
-  });
-
-  $(".inputs input").keypress(function(e) {
-    if (e.keyCode == 13) {
-      sentence = $(".inputs input").val();
-      generate(sentence);
-    }
   });
 });
