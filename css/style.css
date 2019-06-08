@@ -59,6 +59,8 @@ body {
 } */
 .subject-wrapper {
   margin: 2%;
+  height: 600px;
+  max-height:1200px;
 }
 .cards {
   display: grid;
